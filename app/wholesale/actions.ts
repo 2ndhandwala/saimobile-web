@@ -50,7 +50,7 @@ export async function submitWholesaleInquiry(
 
   return sendLeadEmail({
     tag: "wholesale",
-    from: "Wholesale Lead <onboarding@resend.dev>",
+    from: "Wholesale Lead <leads@2ndhandwala.com>",
     subject: `New Wholesale Enquiry: ${data.businessName} · ${data.city}`,
     subtitle: `${data.businessName} · ${data.city} · ${data.category} · ${data.quantity}`,
     rows,

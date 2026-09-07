@@ -40,7 +40,7 @@ export async function submitSellPhoneLead(
 
   return sendLeadEmail({
     tag: "sell-your-phone",
-    from: "Sell Lead <onboarding@resend.dev>",
+    from: "Sell Lead <leads@2ndhandwala.com>",
     subject: `New Sell-Your-Phone Lead: ${data.brand} ${data.model}`,
     subtitle: `${data.brand} ${data.model} · ${data.storage} · ${data.colour}`,
     rows,
