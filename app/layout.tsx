@@ -5,6 +5,7 @@ import { LocalBusinessJsonLd } from "@/lib/jsonld";
 import { SITE_URL } from "@/lib/seo";
 import { shop } from "@/content";
 import { CookieConsent } from "@/components/site/CookieConsent";
+import { GoogleAnalytics } from "@/components/site/GoogleAnalytics";
 import { AnnouncementMarquee } from "@/components/site/AnnouncementMarquee";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
@@ -90,6 +91,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Footer />
         <StickyMobileBar />
         <CookieConsent />
+        <GoogleAnalytics />
       </body>
     </html>
   );
