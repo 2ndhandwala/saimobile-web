@@ -1,18 +1,6 @@
-import { createHash } from "node:crypto";
-import { ALL_INLINE_JSONLD } from "./jsonld-payloads";
-
-function sha256csp(input: string): string {
-  const digest = createHash("sha256").update(input, "utf8").digest("base64");
-  return `'sha256-${digest}'`;
-}
-
-const INLINE_SCRIPT_HASHES = ALL_INLINE_JSONLD.map((payload) =>
-  sha256csp(JSON.stringify(payload)),
-);
-
 const directives: Record<string, string[]> = {
   "default-src": ["'self'"],
-  "script-src": ["'self'", ...INLINE_SCRIPT_HASHES],
+  "script-src": ["'self'", "'unsafe-inline'"],
   "style-src": ["'self'", "'unsafe-inline'"],
   "img-src": ["'self'", "data:", "blob:"],
   "font-src": ["'self'"],

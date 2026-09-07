@@ -1,0 +1,3 @@
+- [English-only copy on saimobile-web](feedback-english-only-copy.md) — all user-facing strings must be English; no Hindi/Hinglish even for "vibe" (proper nouns like the Devanagari wordmark and IG handle are exempt).
+- [Legal pages must be legal-document layout, not marketing-poster](feedback-legal-pages-plain-not-poster.md) — privacy/terms/refund pages: reading typography, numbered sections + TOC, no display headlines / stickers / brick cards / yellow highlight bars. Site chrome (header/footer/sticky bar) still wraps them.
+- [Deployment setup](project-deployment.md) — GitHub repo is public under 2ndhandwala, Vercel under 2ndhandwala. Hobby plan requires public repo for auto-deploys. RESEND_API_KEY + ADMIN_PASSWORD still need adding to Vercel.
