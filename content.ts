@@ -278,7 +278,7 @@ export const about = {
     eyebrow: "The owner",
     name: "Ashish Soni",
     role: `Owner · ${shop.legalNameLatin}`,
-    photo: "/images/team/ashish-soni.jpg",
+    photo: "/images/team/ashish-soni.webp",
     photoAlt: "Ashish Soni at the counter of Shri Sai Mobile, Ekta Chowk",
     body: [
       "Ashish runs the shop. Started it in 2012 at Ahinsa Chowk with a single counter, one phone number, and one rule: every used phone gets checked, every buyer walks out with a bill.",
