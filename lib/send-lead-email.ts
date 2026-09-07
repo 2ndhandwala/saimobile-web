@@ -1,6 +1,6 @@
 import { Resend } from "resend";
 
-const LEAD_INBOX = "grotechdigital@gmail.com";
+const LEAD_INBOX = "2ndhandwala.tech@gmail.com";
 
 export type SendLeadResult = { ok: true } | { ok: false; error: string };
 
