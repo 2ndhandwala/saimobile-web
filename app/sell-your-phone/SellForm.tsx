@@ -39,7 +39,7 @@ export function SellForm() {
   const {
     register,
     handleSubmit,
-    formState: { errors, isValid, isSubmitting },
+    formState: { errors, isSubmitting },
     reset,
     setError,
   } = useForm<SellPhoneInput>({
@@ -268,7 +268,7 @@ export function SellForm() {
         <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
           <button
             type="submit"
-            disabled={!isValid || isSubmitting || status === "submitting"}
+            disabled={isSubmitting || status === "submitting"}
             className="btn btn-yellow w-full sm:w-auto text-base px-6 py-3 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:transform-none"
           >
             {isSubmitting || status === "submitting" ? "Sending…" : "Get my quote"}
