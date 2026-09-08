@@ -37,7 +37,7 @@ export function ReelsSection() {
         <ReelGrid permalinks={reelPermalinks} />
 
         <p className="mt-8 text-sm text-muted font-mono uppercase tracking-widest">
-          Reels load on demand. Nothing blocks the rest of the page.
+          Straight from our Instagram feed.
         </p>
       </div>
     </section>
