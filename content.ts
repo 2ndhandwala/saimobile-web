@@ -590,7 +590,7 @@ export const emi = {
       "Pay the down payment by card, UPI or cash.",
       "The exact instalment plan is quoted at the counter; it depends on the phone you pick.",
     ],
-    photo: "/images/emi-counter.jpg",
+    photo: "/images/emi-counter.webp",
     photoAlt:
       "The EMI counter at Shri Sai Mobile, Ekta Chowk",
   },
