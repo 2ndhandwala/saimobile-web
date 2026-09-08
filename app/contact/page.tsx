@@ -5,6 +5,7 @@ import {
   Phone,
   EnvelopeSimple,
   InstagramLogo,
+  YoutubeLogo,
   MapPinLine,
   ArrowUpRight,
   Clock,
@@ -69,7 +70,7 @@ export default function ContactPage() {
             className="mb-10 md:mb-14"
           />
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 md:gap-4">
             <a
               href={links.whatsapp(contact.methods.waMessage)}
               target="_blank"
@@ -174,6 +175,34 @@ export default function ContactPage() {
                 </div>
                 <div className="mt-1 font-mono text-xs md:text-sm text-ink-2 break-all">
                   {shop.handle}
+                </div>
+              </div>
+            </a>
+
+            <a
+              href={links.youtube}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Watch us on YouTube"
+              className="group brick shadow-brick bg-paper p-5 md:p-6 min-h-40 md:min-h-56 flex flex-col justify-between transition hover:-translate-y-0.5"
+            >
+              <div className="flex items-start justify-between gap-4">
+                <YoutubeLogo weight="fill" size={30} className="text-ink" />
+                <ArrowUpRight
+                  weight="bold"
+                  size={18}
+                  className="text-ink transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                />
+              </div>
+              <div>
+                <div className="font-mono text-[10px] uppercase tracking-[0.22em] text-muted">
+                  Long-form videos
+                </div>
+                <div className="mt-1 font-display font-extrabold tracking-[-0.02em] text-xl md:text-2xl leading-tight text-ink">
+                  YouTube
+                </div>
+                <div className="mt-1 font-mono text-xs md:text-sm text-ink-2 break-all">
+                  @2ndhandwalajbp
                 </div>
               </div>
             </a>

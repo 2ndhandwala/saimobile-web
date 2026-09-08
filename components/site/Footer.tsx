@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { InstagramLogo, WhatsappLogo, Phone, EnvelopeSimple } from "@phosphor-icons/react/dist/ssr";
+import { InstagramLogo, WhatsappLogo, Phone, EnvelopeSimple, YoutubeLogo } from "@phosphor-icons/react/dist/ssr";
 import { shop, links } from "@/content";
 import { CookiePreferencesLink } from "@/components/site/CookieConsent";
 
@@ -101,6 +101,15 @@ export function Footer() {
               >
                 <InstagramLogo weight="fill" size={16} className="text-yellow" />
                 {shop.handle}
+              </a>
+              <a
+                href={links.youtube}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 link-underline text-sm"
+              >
+                <YoutubeLogo weight="fill" size={16} className="text-yellow" />
+                YouTube · @2ndhandwalajbp
               </a>
             </div>
           </div>

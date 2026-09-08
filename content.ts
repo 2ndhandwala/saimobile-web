@@ -38,6 +38,7 @@ export const shop = {
   },
   urls: {
     instagram: "https://www.instagram.com/2nd_hand_wala_jbp_/",
+    youtube: "https://www.youtube.com/@2ndhandwalajbp",
     googleMaps: "https://maps.app.goo.gl/zmAg3AZRDBouUvPC8",
     googleReviews: "https://maps.app.goo.gl/zmAg3AZRDBouUvPC8",
   },
@@ -56,6 +57,7 @@ export const links = {
     )}`,
   directions: shop.urls.googleMaps,
   instagram: shop.urls.instagram,
+  youtube: shop.urls.youtube,
   // Embed-safe map: address query, not the maps.app.goo.gl shortlink (shortlinks don't render in iframes)
   mapEmbed: `https://www.google.com/maps?q=${encodeURIComponent(
     "Shri Sai Mobile, Ekta Chowk, Vijay Nagar, MR4, Jabalpur, Madhya Pradesh 482002",
