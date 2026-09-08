@@ -15,6 +15,7 @@ import {
   type WholesaleInput,
 } from "./schema";
 import { links } from "@/content";
+import { trackEvent } from "@/lib/analytics";
 import {
   ConsentCheckbox,
   Field,
@@ -61,6 +62,7 @@ export function WholesaleForm() {
     if (result.ok) {
       setLastSubmission(values);
       setStatus("success");
+      trackEvent("generate_lead", { form: "wholesale" });
       reset();
       return;
     }

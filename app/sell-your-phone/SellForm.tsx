@@ -15,6 +15,7 @@ import {
   type SellPhoneInput,
 } from "./schema";
 import { links } from "@/content";
+import { trackEvent } from "@/lib/analytics";
 import {
   ConsentCheckbox,
   Field,
@@ -60,6 +61,7 @@ export function SellForm() {
     if (result.ok) {
       setLastSubmission(values);
       setStatus("success");
+      trackEvent("generate_lead", { form: "sell_phone" });
       reset();
       return;
     }
