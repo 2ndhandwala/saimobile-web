@@ -78,17 +78,26 @@ export function Hero() {
           </div>
 
           {/* Right / bottom: photo composition with stickers */}
-          <div className="lg:col-span-5 relative">
-            <div className="relative aspect-[4/5] w-full max-w-[520px] mx-auto brick shadow-brick overflow-hidden">
-              <Image
-                src="/images/hero-counter.webp"
-                alt="Shri Sai Mobile at Ekta Chowk, Jabalpur"
-                fill
-                sizes="(min-width: 1024px) 40vw, 100vw"
-                className="object-cover"
-                priority
-                fetchPriority="high"
-              />
+          <div className="lg:col-span-5 relative lg:self-center">
+            <div className="relative max-w-[520px] mx-auto">
+              <div className="relative aspect-[4/3] w-full brick shadow-brick overflow-hidden">
+                <Image
+                  src="/images/hero-storefront.webp"
+                  alt="Shri Sai Mobile storefront at Ekta Chowk, Jabalpur"
+                  fill
+                  sizes="(min-width: 1024px) 40vw, 100vw"
+                  className="object-cover"
+                  priority
+                  fetchPriority="high"
+                />
+              </div>
+
+              {/* Centered on the picture's left boundary */}
+              <div className="absolute top-1/2 left-0 -translate-x-1/2 -translate-y-1/2 hidden md:block">
+                <Sticker tilt={-90} tone="paper" className="text-xs">
+                  {shop.yearsRunning} years in Jabalpur
+                </Sticker>
+              </div>
             </div>
 
             {/* Floating stickers */}
@@ -100,11 +109,6 @@ export function Hero() {
             <div className="absolute -bottom-4 -left-3 md:-bottom-6 md:-left-6 hidden sm:block">
               <Sticker tilt={-6} tone="ink" className="text-sm">
                 Warranty · Bill · Box
-              </Sticker>
-            </div>
-            <div className="absolute top-1/2 -translate-y-1/2 -left-4 md:-left-6 hidden md:block">
-              <Sticker tilt={-90} tone="paper" className="text-xs">
-                {shop.yearsRunning} years in Jabalpur
               </Sticker>
             </div>
           </div>
