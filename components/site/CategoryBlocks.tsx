@@ -82,7 +82,7 @@ export function CategoryBlocks() {
             <div className="md:col-span-6 relative">
               <div className="relative aspect-[5/4] w-full border-2 border-yellow rounded-brick shadow-[6px_6px_0_0_#ffce00] overflow-hidden bg-ink">
                 <Image
-                  src="/images/used-phones.webp"
+                  src="/images/used-phones-display.webp"
                   alt="Used phones being checked at Shri Sai Mobile"
                   fill
                   sizes="(min-width: 768px) 50vw, 100vw"
