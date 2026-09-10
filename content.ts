@@ -23,8 +23,8 @@ export const shop = {
   phoneDisplay: "+91 97556 66024",
   phoneTel: "+919755666024",
   whatsappNumber: "919755666024",
-  email: "contact@2ndhandwala.com",
-  privacyEmail: "privacy@2ndhandwala.com",
+  email: "2ndhandwala.tech@gmail.com",
+  privacyEmail: "2ndhandwala.tech@gmail.com",
   address: {
     line1: "Ekta Chowk, Vijay Nagar, MR4",
     line2: "Jabalpur, MP - 482002",
