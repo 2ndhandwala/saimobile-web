@@ -17,7 +17,7 @@ const footerNav = [
 
 export function Footer() {
   return (
-    <footer className="bg-ink text-paper pb-28 md:pb-10">
+    <footer className="bg-ink text-paper pb-20 md:pb-10">
       <div className="mx-auto max-w-[1400px] px-4 md:px-8 pt-14 md:pt-16 pb-8">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-10">
           <div className="md:col-span-5">
@@ -141,7 +141,7 @@ export function Footer() {
               href="https://grotechdigital.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="link-underline hover:text-yellow"
+              className="link-underline hover:text-yellow font-bold text-paper"
             >
               Grotech Digital
             </a>
