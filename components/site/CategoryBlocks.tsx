@@ -63,7 +63,7 @@ export function CategoryBlocks() {
             <div className="md:col-span-6 order-1 md:order-2 relative">
               <div className="relative aspect-[5/4] w-full brick shadow-brick overflow-hidden">
                 <Image
-                  src="/images/new-phones.webp"
+                  src="/images/new-phones-18-pro.webp"
                   alt="Brand-new sealed phones at Shri Sai Mobile"
                   fill
                   sizes="(min-width: 768px) 50vw, 100vw"
