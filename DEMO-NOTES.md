@@ -478,7 +478,7 @@ needs an owner or legal decision before it can go live truthfully.
 Don't touch these — they're the load-bearing trust signals:
 
 - Address: `Ekta Chowk, Vijay Nagar, MR4, Jabalpur, MP - 482002`
-- Phone / WhatsApp: `+91 97556 66024`
+- Phone / WhatsApp: `+91 62667 58917`
 - Hours: `11 AM – 10 PM, 7 days a week`
 - Instagram handle + follower count: `@2nd_hand_wala_jbp_` · 229,000+
 - Google rating + review count: 4.8 ★ · 679 reviews
@@ -540,7 +540,7 @@ Don't touch these — they're the load-bearing trust signals:
 
 - Build passes (`npm run build`): clean, all routes prerendered static.
 - Dev server renders `HTTP 200` at `/`, 228KB HTML, all 11 sections present.
-- All CTAs are wired: `tel:+919755666024`, `https://wa.me/919755666024?text=…`,
+- All CTAs are wired: `tel:+916266758917`, `https://wa.me/916266758917?text=…`,
   Google Maps shortlink for directions.
 - Structured data: `MobilePhoneStore` LocalBusiness JSON-LD with real address, hours,
   phone, `aggregateRating` (4.8/679), `sameAs` to Instagram, `openingHoursSpecification`

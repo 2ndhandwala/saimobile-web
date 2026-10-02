@@ -20,9 +20,9 @@ export const shop = {
   hours: "11:00 AM – 10:00 PM",
   hoursShort: "11am – 10pm",
   daysOpen: "7 days a week",
-  phoneDisplay: "+91 97556 66024",
-  phoneTel: "+919755666024",
-  whatsappNumber: "919755666024",
+  phoneDisplay: "+91 62667 58917",
+  phoneTel: "+916266758917",
+  whatsappNumber: "916266758917",
   email: "2ndhandwala.tech@gmail.com",
   privacyEmail: "2ndhandwala.tech@gmail.com",
   address: {

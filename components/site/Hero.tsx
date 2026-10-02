@@ -2,8 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import {
   WhatsappLogo,
-  MapPinLine,
-  ArrowUpRight,
+  DeviceMobile,
   InstagramLogo,
 } from "@phosphor-icons/react/dist/ssr";
 import { Sticker } from "@/components/ui/Sticker";
@@ -42,24 +41,21 @@ export function Hero() {
             </p>
 
             <div className="mt-7 md:mt-9 flex flex-wrap items-center gap-3">
+              <Link
+                href="/sell-your-phone"
+                className="btn btn-yellow"
+              >
+                <DeviceMobile weight="fill" size={20} />
+                Sell Your Phone
+              </Link>
               <a
                 href={links.whatsapp("Hi, I saw your Instagram. Looking for a phone.")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-yellow"
+                className="btn btn-ghost"
               >
                 <WhatsappLogo weight="fill" size={20} />
                 Chat on WhatsApp
-              </a>
-              <a
-                href={links.directions}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-ghost"
-              >
-                <MapPinLine weight="bold" size={20} />
-                Get directions
-                <ArrowUpRight weight="bold" size={16} />
               </a>
             </div>
 

@@ -74,7 +74,7 @@ export function PhoneInput({
         inputMode="numeric"
         maxLength={10}
         autoComplete="tel-national"
-        placeholder="97556 66024"
+        placeholder="62667 58917"
         className={`${inputBase} rounded-l-none`}
         aria-invalid={invalid}
         {...register}

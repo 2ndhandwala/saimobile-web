@@ -15,8 +15,8 @@ function classifyClick(href) {
   return null;
 }
 
-assert.equal(classifyClick("https://wa.me/919755666024?text=hi")?.name, "whatsapp_click");
-assert.equal(classifyClick("tel:+919755666024")?.name, "phone_click");
+assert.equal(classifyClick("https://wa.me/916266758917?text=hi")?.name, "whatsapp_click");
+assert.equal(classifyClick("tel:+916266758917")?.name, "phone_click");
 assert.equal(classifyClick("mailto:contact@2ndhandwala.com")?.name, "email_click");
 assert.deepEqual(classifyClick("https://www.instagram.com/2ndhandwala"), {
   name: "social_click",
