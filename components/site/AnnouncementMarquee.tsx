@@ -18,11 +18,11 @@ export function AnnouncementMarquee() {
       <p className="sr-only">
         {items.join(". ")}.
       </p>
-      <div aria-hidden className="flex marquee-track fast whitespace-nowrap py-2">
+      <div aria-hidden className="flex gap-6 marquee-track fast whitespace-nowrap py-2">
         {loop.map((t, i) => (
           <span
             key={i}
-            className="mx-6 font-mono text-[11px] md:text-xs font-bold uppercase tracking-[0.22em] flex items-center gap-6"
+            className="font-mono text-[11px] md:text-xs font-bold uppercase tracking-[0.22em] flex items-center gap-6"
           >
             {t}
             <span className="inline-block w-1.5 h-1.5 bg-yellow rounded-full" />
